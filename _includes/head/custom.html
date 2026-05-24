@@ -1,0 +1,53 @@
+{% include base_path %}
+
+<!-- start custom head snippets -->
+
+<!-- Support for Academicons -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/wave-favicon-180.png"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/wave-favicon-32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/wave-favicon-192.png" sizes="192x192"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/wave-favicon-512.png" sizes="512x512"/>
+<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
+<meta name="theme-color" content="#ffffff"/>
+
+<script>
+  localStorage.setItem("theme", "light");
+  document.documentElement.removeAttribute("data-theme");
+</script>
+
+<style>
+  .author__content .author__bio {
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+    line-height: 1.25;
+  }
+
+  .author__content .author__name {
+    margin-bottom: 0.55rem;
+  }
+
+  .author__content .author__affiliation {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+
+  #theme-toggle {
+    display: none;
+  }
+
+  .author__urls-wrapper {
+    margin-top: 0.7rem;
+  }
+
+  .author__urls.social-icons li {
+    margin-bottom: 0.05rem;
+  }
+
+  .page__content p + ul {
+    margin-top: -0.6rem;
+  }
+</style>
+
+<!-- end custom head snippets -->
